@@ -1,5 +1,6 @@
 # EC500-Modular Design-2.4
 
+## How to Execute
 Run Implement.py
 
 ### System Diagram(Leyang Shen)
