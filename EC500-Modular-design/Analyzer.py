@@ -28,7 +28,7 @@ class Analyzer():
     
     def Fever(self, Body_temp):
         # Fever judgement
-        if (float(Body_temp) > 37.5):
+        if (float(Body_temp) >= 37.5):
             return True
         return False
     
