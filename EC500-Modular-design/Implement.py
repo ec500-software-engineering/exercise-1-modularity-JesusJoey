@@ -30,10 +30,10 @@ def main():
     t1 = threading.Thread(target=Input_module.input())
     t2 = threading.Thread(target=process)
 
-    t1.start()
+    #t1.start()
     t2.start()
 
-    t1.join()
+    #t1.join()
     t2.join()
 
 
