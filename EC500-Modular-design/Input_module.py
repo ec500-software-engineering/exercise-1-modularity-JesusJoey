@@ -16,14 +16,6 @@ class input_module:
                     "Diastolic_BP": Diastolic_BP, "Systolic_BP":Systolic_BP, "blood_oxygen": blood_oxygen,
                     "temperature": temperature, "time": time}
 
-    '''def filter(data):
-        wrong_flag = -1
-        noise = 500
-        if data > noise:
-            data = wrong_flag
-        return data
-    '''
-
 
     def implement_filter(self):
         for key in self.dic.keys():
