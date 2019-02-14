@@ -5,6 +5,7 @@ Run Implement.py
 
 ### System Diagram(Leyang Shen)
 
+The main pipeline is Input Module -> Processing Module -> Output Module
 <img align = center src = "https://github.com/leonshen95/EC500/blob/master/EC500%20diagram%201.jpg?raw=true">
  
 ## Database Module(Yuxuan Su & Zifan Wang)
