@@ -1,4 +1,4 @@
-from AI_module import AI_module
+
 
 
 def display_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension):
@@ -6,17 +6,17 @@ def display_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hyp
  ##Boolean Parameters
  ##If paramter returns True, means it should be alerted, then add it to the array
     BasicResult = {'Signal_Loss':False, 'Shock_Alert':False,'Oxygen_Supply':False,'Fever':False,'Hypotension':False,'Hypertension':False}
-    if(Singal_Loss == True):
+    if(Singal_Loss is True):
         BasicResult['Signal Loss']=True
-    if(Shock_Alert == True):
+    if(Shock_Alert is True):
         BasicResult['Shock_Alert']=True 
-    if(Oxygen_Supply == True):
+    if(Oxygen_Supply is True):
         BasicResult['Oxygen_Supply']=True 
-    if(Fever == True):
+    if(Fever is True):
         BasicResult['Fever']=True
-    if(Hypotension == True):
+    if(Hypotension is True):
         BasicResult['Hypotension']=True
-    if(Hypertension == True):
+    if(Hypertension is True):
         BasicResult['Hypertension']=True 
 
     return BasicResult
@@ -29,7 +29,7 @@ def display_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hyp
  #   return sentData, BasicData
 
 
-def display_AI_iuput_data():
+'''def display_AI_iuput_data():
  ## Recevie AI data from input module, then analyze it using some judge functions to generate boolean result
  ## Paramter is boolean
  ## If paramter is True, means it should be alerted, then add it to the array
@@ -46,3 +46,4 @@ def display_AI_iuput_data():
  ## Receive the result and show it on terminal or web page
  #   sentData = analyze(AIResult)
  #   return sentData
+ '''
