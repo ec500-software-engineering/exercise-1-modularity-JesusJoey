@@ -21,9 +21,9 @@ def process():
 
         result=Output_Module.display_basic_iuput_data(signal_loss, shock_alert, oxygen_supply, fever, hypotension, hypertension)
         print('--------------------------------------')
-        print 'Patient  No', idx, 'Alert'
+        print ('Patient  No', idx, 'Alert')
         for index in result:
-            print index,':',result[index]
+            print(index,':',result[index])
 
 
 def main():
