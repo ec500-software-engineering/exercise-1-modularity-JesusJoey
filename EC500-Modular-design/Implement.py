@@ -3,7 +3,6 @@ import threading
 import  Input_module
 from Analyzer import Analyzer
 import Output_Module
-from queue import Queue
 
 def process():
     # user_id, age, gender, heartrate, Systolic_BP, Diastolic_BP, blood_oxygen, temperature, time):
@@ -27,7 +26,7 @@ def process():
 
 
 def main():
-    t1 = threading.Thread(target=Input_module.input())
+    #t1 = threading.Thread(target=Input_module.input())
     t2 = threading.Thread(target=process)
 
     #t1.start()
