@@ -59,4 +59,4 @@ def input():
 
 data = input()
 for item in data:
-    print data[item]
+    print(data[item])
